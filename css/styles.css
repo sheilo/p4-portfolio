@@ -1,5 +1,108 @@
 /* Your Website Styles */
 
+/***********
+GENERAL
+************/
+
+h1, 
+h2, 
+h3, 
+h4 {
+  color: #A8C060;
+  font-family: 'Russo One', sans-serif;
+}
+
+h1 {
+  width: 370px;
+  padding: 10px 0 0 10px;
+  margin: 10px 0 0 10px;
+  font-size: 2.5em;
+}
+
+h2, 
+h3 {
+  padding: 0 10px 0 10px;
+  margin: 0 10px 0 10px;  
+}
+
+h3 {
+  margin: 5px 5px 5px 5px;  
+}
+
+body {
+  background: url("../img/footer_lodyas.png");
+}
+
+p {
+  font-family: 'Play', sans-serif;
+  margin: 5px 0 5px 0;
+  color: #111;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+/***********
+TITLE SECTION
+************/
+.heading {
+  background-color: rgba(255,255,255,.1);
+}
+
+nav {
+  padding: 10px 0 0 0;
+  margin: 10px 0 0 0;
+}
+
+nav>li{
+  font-size: 1.5em;
+  float: right;
+  padding: 15px 20px 0 0;
+  margin: 15px 20px 0 0;
+}
+
+/***********
+ABOUT SECTION
+************/
+img {
+  width: 85%;
+  padding: 10px;
+  margin: 10px;
+  border-radius:30px;
+}
+
+article {
+  padding: 0 30px;
+}
+
+/***********
+EXTRA LINKS
+************/
+
+li {
+  list-style: none;
+  float: left;
+  font-family: 'Play';
+  color: #111;
+}
+
+a:link,
+a:visited {
+  color: #A8C060;
+  text-decoration: none;
+  margin: 0 5px 0 5px;
+  transition:  .25s;
+}
+
+a:hover, 
+a:active {
+  text-decoration: line-through;
+  color: #8A8A8A;
+}
+
 
 
 /* Gallery Stying */
@@ -20,25 +123,22 @@
   position: relative;
 }
 .gallery .item {
-  height: 400px;
-  overflow: hidden;
+  height: 100%;
+  overflow: visible;
   text-align: center;
-  background: #4d87e2;
 }
 .gallery .controls {
   position: absolute;
-  bottom: -120px;
   width: 100%;
   text-align: center;
 }
 
 .gallery .controls img {
-  border: 5px solid #000;
+  border: 5px solid rgba(255, 255, 255, .1);
 }
 
 .gallery .control-button {
   display: inline-block;
-  margin: 0 .02em;
   font-size: 3em;
   text-align: center;
   text-decoration: none;
