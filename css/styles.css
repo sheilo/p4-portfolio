@@ -104,7 +104,12 @@ a:active {
   color: #8A8A8A;
 }
 
-
+h1 a:hover, 
+h1 a:active, 
+h1 a:link,
+h1 a:visited {
+  margin: 0;
+}
 
 /* Gallery Stying */
 img[src*="1.png"]{
